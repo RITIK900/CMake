@@ -4,4 +4,4 @@ project(FirstProject
         DESCRIPTION "This is my first CMake Project..."
         LANGUAGES CXX)
 add_executable(FirstProjectBinary main.cpp)
-target_compile_features(FirstProjectBinary PRIVATE cxx_std_23) 
+target_compile_features(FirstProjectBinary PRIVATE cxx_std_17) 
